@@ -1,0 +1,2438 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.20f1 (61c2feb0970d) revision 6406910'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16252 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/unity training/defense game basic/Defense-Game-Basic
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62295
+Successfully changed project path to: E:/unity training/defense game basic/Defense-Game-Basic
+E:/unity training/defense game basic/Defense-Game-Basic
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10608] Host "[IP] 172.16.31.229 [Port] 0 [Flags] 2 [Guid] 3818099999 [EditorId] 3818099999 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JODHQCQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [10608] Host "[IP] 172.16.31.229 [Port] 0 [Flags] 2 [Guid] 3818099999 [EditorId] 3818099999 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JODHQCQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 14.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.20f1 (61c2feb0970d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/unity training/defense game basic/Defense-Game-Basic/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   NVIDIA
+    VRAM:     4007 MB
+    Driver:   31.0.15.5123
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56324
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.018084 seconds.
+- Loaded All Assemblies, in  0.580 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.485 seconds
+Domain Reload Profiling: 1063ms
+	BeginReloadAssembly (165ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (94ms)
+	LoadAllAssembliesAndSetupDomain (242ms)
+		LoadAssemblies (162ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (239ms)
+			TypeCache.Refresh (237ms)
+				TypeCache.ScanAssembly (215ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (486ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (392ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (118ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (196ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.973 seconds
+Refreshing native plugins compatible for Editor in 4.54 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.023 seconds
+Domain Reload Profiling: 1993ms
+	BeginReloadAssembly (215ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (628ms)
+		LoadAssemblies (462ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (295ms)
+			TypeCache.Refresh (255ms)
+				TypeCache.ScanAssembly (226ms)
+			ScanForSourceGeneratedMonoScriptInfo (32ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1024ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (794ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (574ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 4.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4034 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (244.3 KB). Loaded Objects now: 4492.
+Memory consumption went from 150.2 MB to 149.9 MB.
+Total: 4.943900 ms (FindLiveObjects: 0.385900 ms CreateObjectMapping: 0.439000 ms MarkObjects: 3.846500 ms  DeleteObjects: 0.271000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 157765.940341 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9326e97e2461385864aa44f9e28ada') in 0.013244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 54.340088 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Invironment
+  artifactKey: Guid(d24a0347af3ff7d489f787019e2d300c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Invironment using Guid(d24a0347af3ff7d489f787019e2d300c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535da3f357380e1c1fce9efe90f3d04e') in 0.000591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.114262 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Invironment/Sample.png
+  artifactKey: Guid(8000eb1e8a9cc9044bdb48374afbd6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Invironment/Sample.png using Guid(8000eb1e8a9cc9044bdb48374afbd6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705c9b9e34c0fabe1edf422a1ca627b1') in 0.201453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 203.099774 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f58c82bc850f842e615c5800e3ce07') in 0.001366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1957.326350 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bf4eb65cbb669b71ad111a2366da8373') in 0.109131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Walk/Walk_03.png
+  artifactKey: Guid(b48ef8557a849734185203398c75a119) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Walk/Walk_03.png using Guid(b48ef8557a849734185203398c75a119) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '65ed6927d5c55adad970e851f804c659') in 0.225070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Walk/Walk_05.png
+  artifactKey: Guid(d8a1982eb54c61041bdb21f20e5fb77b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Walk/Walk_05.png using Guid(d8a1982eb54c61041bdb21f20e5fb77b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '43a66d03220a9878b816d324a1120170') in 0.063631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Death/Death_13.png
+  artifactKey: Guid(4fd4febc539763c45a69825b01361e4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Death/Death_13.png using Guid(4fd4febc539763c45a69825b01361e4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd7196add90846c540f97311a16a253e5') in 0.069369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Attack/Attack_07.png
+  artifactKey: Guid(a1589b386f782864680048a585bbc9ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Attack/Attack_07.png using Guid(a1589b386f782864680048a585bbc9ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53111aafa4782862645d02fbcc5b5877') in 0.086073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Death/Death_20.png
+  artifactKey: Guid(47423768a7178e34ebad8456f29af600) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Death/Death_20.png using Guid(47423768a7178e34ebad8456f29af600) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '97cf20206e24b45f5d64eb537e6e6881') in 0.078704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Attack/Attack_02.png
+  artifactKey: Guid(3a593f0834bd44e4aa9d475044976d02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Attack/Attack_02.png using Guid(3a593f0834bd44e4aa9d475044976d02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0fa96763ecd009520ad5c2e6151f4c67') in 0.082756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/GUI/HeroHud/Hero_02.png
+  artifactKey: Guid(1c9c04ad88b78dd41af016033bccf298) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/GUI/HeroHud/Hero_02.png using Guid(1c9c04ad88b78dd41af016033bccf298) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '90e06716618e2dba2acd4450b09bd566') in 0.070280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Death/Death_06.png
+  artifactKey: Guid(c7a0d33e2431a0e42bbd4958331c5143) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Death/Death_06.png using Guid(c7a0d33e2431a0e42bbd4958331c5143) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b5964cfdafd0295c146574528738e79') in 0.062490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Attack/Attack_20.png
+  artifactKey: Guid(cd537443b9492294baf8810ef57f6be8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Attack/Attack_20.png using Guid(cd537443b9492294baf8810ef57f6be8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5af8648d104033b162e512d7b0fe89ee') in 0.068117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Death/Death_10.png
+  artifactKey: Guid(d9b3338b7a87f8641921c001d2c5b7aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Death/Death_10.png using Guid(d9b3338b7a87f8641921c001d2c5b7aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '05aecc383543eba05e24fb0de4475fe6') in 0.078470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/GUI/Barrack_box.png
+  artifactKey: Guid(88bee1b320193374187542fcdf4847ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/GUI/Barrack_box.png using Guid(88bee1b320193374187542fcdf4847ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c839d48e95cd6e521c1db131c950716') in 0.097721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Walk/Walk_15.png
+  artifactKey: Guid(eac112bd1bccc2f44a9aece5c925d268) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Walk/Walk_15.png using Guid(eac112bd1bccc2f44a9aece5c925d268) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '992a0c02999569b654fba8e0b920f47b') in 0.067418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Attack/Attack_08.png
+  artifactKey: Guid(9b4f6255063ac7240b44fe94b0405c03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Attack/Attack_08.png using Guid(9b4f6255063ac7240b44fe94b0405c03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03440e9c208745bcfae66d85f781eda4') in 0.084883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_07.png
+  artifactKey: Guid(69bba32447ffef947bb0530398ee4d95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_07.png using Guid(69bba32447ffef947bb0530398ee4d95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7ae0517f10b8fe3f758f366c294b0eb9') in 0.111225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Attack/Attack_19.png
+  artifactKey: Guid(926d6f05f162a5645a28d0fe7cabe817) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Attack/Attack_19.png using Guid(926d6f05f162a5645a28d0fe7cabe817) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8be8d2020a58098dcd2edf5a09c75b2d') in 0.072061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Attack/Attack_10.png
+  artifactKey: Guid(83a5bd27dc33aa445ac42ea90f4218ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Attack/Attack_10.png using Guid(83a5bd27dc33aa445ac42ea90f4218ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b03c580d8720100d3d0824bc8119edf9') in 0.095772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Attack/Attack_03.png
+  artifactKey: Guid(6d43cba6b106c2643bd1ccd192324e3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Attack/Attack_03.png using Guid(6d43cba6b106c2643bd1ccd192324e3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b3eecb95033e32314b033f006d0d8ca') in 0.103765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Death/Death_09.png
+  artifactKey: Guid(493381d09abe68946bde8a451f7cbe04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Death/Death_09.png using Guid(493381d09abe68946bde8a451f7cbe04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e90b88297026100ea6944e57ee2117b5') in 0.063621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_08.png
+  artifactKey: Guid(c86deb09db795e34e9aa7fb386ad3e37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_08.png using Guid(c86deb09db795e34e9aa7fb386ad3e37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '98f0a66ddbf025d9f9bc0410aa061e80') in 0.075470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_14.png
+  artifactKey: Guid(2e8f9fcf1a7abe04fbcfde7be8cb4e36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_14.png using Guid(2e8f9fcf1a7abe04fbcfde7be8cb4e36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b37cafce853b8bea67c8c70ea6f3636a') in 0.070994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Attack/Attack_05.png
+  artifactKey: Guid(e77971479fc3a414f9d1430d8846006e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Attack/Attack_05.png using Guid(e77971479fc3a414f9d1430d8846006e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f13c80cbd4ce29003c2195ebf1598c5d') in 0.058357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Attack/Attack_22.png
+  artifactKey: Guid(c04d750225dc4cb42acf042c32c2e755) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Attack/Attack_22.png using Guid(c04d750225dc4cb42acf042c32c2e755) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6469ba51ad4bc3e378463e0805821393') in 0.077444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Walk/Walk_04.png
+  artifactKey: Guid(34ea01cc755ece44f8cbd338922cad57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Walk/Walk_04.png using Guid(34ea01cc755ece44f8cbd338922cad57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '012ea7e81eb0036701f0cb9537d3c6d2') in 0.069278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Attack/Attack_01.png
+  artifactKey: Guid(22a0055ca21618842a8aa5590483fb3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Attack/Attack_01.png using Guid(22a0055ca21618842a8aa5590483fb3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f77d494961cfda374cc0006864bbf90') in 0.066115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Attack/Attack_09.png
+  artifactKey: Guid(bded605f9cc4b45458499e9898bba50a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Attack/Attack_09.png using Guid(bded605f9cc4b45458499e9898bba50a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '035c3a183ce94da0a896aaa57d04455c') in 0.067349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Audio/Music/BG.wav
+  artifactKey: Guid(0fd7ed3e3b2f4304a84de8b4a57c04ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Audio/Music/BG.wav using Guid(0fd7ed3e3b2f4304a84de8b4a57c04ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4e741a2827f885c35c5236e9ae8eaec') in 0.128815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Walk/Walk_14.png
+  artifactKey: Guid(24ec2e166e8decd4c97b92d1711aa6a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Walk/Walk_14.png using Guid(24ec2e166e8decd4c97b92d1711aa6a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '685fbeab7f791adce7ace96e1e013e6d') in 0.088570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_35.png
+  artifactKey: Guid(6ca9955668291ce4e8155f730006b6b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_35.png using Guid(6ca9955668291ce4e8155f730006b6b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '87c60f9d77b617761cfffe5234cf2ccc') in 0.074686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_28.png
+  artifactKey: Guid(50dbc176971cae64bb47e6d9ed568745) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_28.png using Guid(50dbc176971cae64bb47e6d9ed568745) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f063c6dfb5e4d7e2e3aed01147724f68') in 0.061319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_18.png
+  artifactKey: Guid(810b3cdb39b3eb54aa64d226ab446973) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_18.png using Guid(810b3cdb39b3eb54aa64d226ab446973) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce338839ab15a3f88d4524c8c8ec067f') in 0.090293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Attack/Attack_17.png
+  artifactKey: Guid(2aff49fc791aad9459bc5e593fb95720) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Attack/Attack_17.png using Guid(2aff49fc791aad9459bc5e593fb95720) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '85c58e1a6f246969fc254c5744a46dac') in 0.064863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/GUI/Progress-bar-Blue.png
+  artifactKey: Guid(ac8d34b24293d4949922d78bf9941c73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/GUI/Progress-bar-Blue.png using Guid(ac8d34b24293d4949922d78bf9941c73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '897c88c53acd4ddb930a4cacda48822b') in 0.091427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Attack/Attack_00.png
+  artifactKey: Guid(25767ec92fe8a754db6937734a7bba14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Attack/Attack_00.png using Guid(25767ec92fe8a754db6937734a7bba14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a08d04983982d8b6ce0f680e9fed2b5b') in 0.085466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/GUI/Heroes_icon.png
+  artifactKey: Guid(26d2a39fd8758664dad841362879b18b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/GUI/Heroes_icon.png using Guid(26d2a39fd8758664dad841362879b18b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '532718043bd3c50945d3ffedfe346f92') in 0.078229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_44.png
+  artifactKey: Guid(db37137e5dfcd2c45b77457aaa400f2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_44.png using Guid(db37137e5dfcd2c45b77457aaa400f2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '205c5e326ad532e48a3d0c90c8edacf9') in 0.066143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Walk/Walk_05.png
+  artifactKey: Guid(ab20830f8e3bd9e439926a3fc91e3592) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Walk/Walk_05.png using Guid(ab20830f8e3bd9e439926a3fc91e3592) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd074af0a75c5e3f5af70e38caa8a287d') in 0.093022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Attack/Attack_12.png
+  artifactKey: Guid(d10e352a8b0523040866bbc1a01ad5c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Attack/Attack_12.png using Guid(d10e352a8b0523040866bbc1a01ad5c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '593a708878b34d98d81b7e5190a60524') in 0.064885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Walk/Walk_07.png
+  artifactKey: Guid(5d99b8a66d636564882907c6f179d3dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Walk/Walk_07.png using Guid(5d99b8a66d636564882907c6f179d3dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b9f93a84794135551c131a1e9815d9e0') in 0.078738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Death/Death_00.png
+  artifactKey: Guid(326ce220137d4b04e84f9a5f8df36736) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Death/Death_00.png using Guid(326ce220137d4b04e84f9a5f8df36736) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5df572a8b4bbeb321e762cbd5522c68d') in 0.074082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Walk/Walk_10.png
+  artifactKey: Guid(734ae17f0c812984496a70a38dafb005) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Walk/Walk_10.png using Guid(734ae17f0c812984496a70a38dafb005) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e65f74b3aa02426d455dbe8348671d7') in 0.078311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Walk/Walk_14.png
+  artifactKey: Guid(4bf731a4cc447cd43b953d63e5c1eca8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Walk/Walk_14.png using Guid(4bf731a4cc447cd43b953d63e5c1eca8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2a510f43913407ed2c8bf5a353ef0d3a') in 0.067307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Attack/Attack_01.png
+  artifactKey: Guid(d4af1e2a45ea29443be06e7933fee32b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Attack/Attack_01.png using Guid(d4af1e2a45ea29443be06e7933fee32b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '111ba5c3819c2dcd2a7d66f5fd39b236') in 0.109143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Attack/Attack_13.png
+  artifactKey: Guid(dcb02ae2d1ecd6d44ba7072dae742eea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Attack/Attack_13.png using Guid(dcb02ae2d1ecd6d44ba7072dae742eea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bdb2a098c5beb252e4f8e377ef563b7f') in 0.068081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_01.png
+  artifactKey: Guid(06e7732ebbdd83d46b26753a6f16c444) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_01.png using Guid(06e7732ebbdd83d46b26753a6f16c444) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ef7122cc09a88468ad0750d1746bb7e') in 0.085221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Walk/Walk_18.png
+  artifactKey: Guid(e1e45bf1004f3584d9833dd99ea704d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Walk/Walk_18.png using Guid(e1e45bf1004f3584d9833dd99ea704d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e8ade7d285fbc2a84e9b44e8de33f49') in 0.083961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_42.png
+  artifactKey: Guid(92bf0db2e2a03ed49b22fd5121f4f609) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_42.png using Guid(92bf0db2e2a03ed49b22fd5121f4f609) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '156df3c6c4b0d94b47de5c08b79aa834') in 0.135234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Walk/Walk_02.png
+  artifactKey: Guid(b49696c838708c24a82ce5c8b312f05b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Walk/Walk_02.png using Guid(b49696c838708c24a82ce5c8b312f05b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c365755b2b25615a3ae079a4ab7edf5e') in 0.128077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Walk/Walk_18.png
+  artifactKey: Guid(a11394a262567af4d9b7ee8e7f7b1296) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Walk/Walk_18.png using Guid(a11394a262567af4d9b7ee8e7f7b1296) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '30c5c3f0538fae1178da08eeb54c7354') in 0.091007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Attack/Attack_14.png
+  artifactKey: Guid(622beb3b431388d40bb52b8770233438) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Attack/Attack_14.png using Guid(622beb3b431388d40bb52b8770233438) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '467dd435d7938b303038073bd01593fa') in 0.078712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Attack/Attack_07.png
+  artifactKey: Guid(2a3b2c27852f12240b3c2feccf8db158) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Attack/Attack_07.png using Guid(2a3b2c27852f12240b3c2feccf8db158) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '33301a7ec22f899cb87327cdcd0880cf') in 0.061222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_41.png
+  artifactKey: Guid(b4116bd744231e842be7d34b7b15c914) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_41.png using Guid(b4116bd744231e842be7d34b7b15c914) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '764bb2932da7ae6561676b16336f89c3') in 0.115683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_37.png
+  artifactKey: Guid(f6d65b0a5bebef541b636b2677767bb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_37.png using Guid(f6d65b0a5bebef541b636b2677767bb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '387e61e0a4b2719d1066179e876be5ff') in 0.077646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Attack/Attack_16.png
+  artifactKey: Guid(c19184cf01ca72348b16a31df24cb0af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Attack/Attack_16.png using Guid(c19184cf01ca72348b16a31df24cb0af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '014319bef0a807624b4b3592cd97782c') in 0.071406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_34.png
+  artifactKey: Guid(d22db515ccc3db1428ae9e4317673b29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_34.png using Guid(d22db515ccc3db1428ae9e4317673b29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e45cc40d690934e2579e6d9ccbc125a8') in 0.076711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Attack/Attack_15.png
+  artifactKey: Guid(4dd9883e8648cbd4d88baf1746e30931) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Attack/Attack_15.png using Guid(4dd9883e8648cbd4d88baf1746e30931) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e646d3784d4ba57c35735e8ebe111c42') in 0.075221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Attack/Attack_24.png
+  artifactKey: Guid(410e3c4e248ba5b4ab5e44485d50133e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Attack/Attack_24.png using Guid(410e3c4e248ba5b4ab5e44485d50133e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a535a0fbc06969dd8abdb5b949c9ab3b') in 0.095697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_26.png
+  artifactKey: Guid(c25029bd4f897ee4e9fa9b1bab736b2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_26.png using Guid(c25029bd4f897ee4e9fa9b1bab736b2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26551a44e919238a7355b6edbb928c55') in 0.086934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Death/Death_07.png
+  artifactKey: Guid(932fe59595939814081099aae13b0a47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Death/Death_07.png using Guid(932fe59595939814081099aae13b0a47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82bd95ae431d4398af69f1b05f023569') in 0.059655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Death/Death_23.png
+  artifactKey: Guid(45372249d3d4783499e507f8c3c2b5f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Death/Death_23.png using Guid(45372249d3d4783499e507f8c3c2b5f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a9dd06d0226e2c4ba6a3bcb98539ae13') in 0.069326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Attack/Attack_34.png
+  artifactKey: Guid(5fe3b52e2c938e743b25a52334fb17cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Attack/Attack_34.png using Guid(5fe3b52e2c938e743b25a52334fb17cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '95acc7b63ab939c070a867f9b72b37b8') in 0.074146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Attack/Attack_28.png
+  artifactKey: Guid(f4ec29cf31acec4478da127c4e0ee7d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Attack/Attack_28.png using Guid(f4ec29cf31acec4478da127c4e0ee7d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dc8c9c4bace1e248bcd1ab1cc483feec') in 0.106314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Walk/Walk_11.png
+  artifactKey: Guid(86066d3a29946ce44b65088d03edaa8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Walk/Walk_11.png using Guid(86066d3a29946ce44b65088d03edaa8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f4b384a80176e5403974e94641bd2f1') in 0.093354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Walk/Walk_06.png
+  artifactKey: Guid(376ade1ec75a96945a0d04711a56c8ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Walk/Walk_06.png using Guid(376ade1ec75a96945a0d04711a56c8ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '30ad4f04ff79c50829db457de3e2cd42') in 0.100284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_06.png
+  artifactKey: Guid(55c23a13c8a027944a69672e11ae64ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_06.png using Guid(55c23a13c8a027944a69672e11ae64ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '739f4187a73fb8e90d9ddb09d4b21b0a') in 0.068096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_05.png
+  artifactKey: Guid(821532ef4e380644f88ed17f6d208663) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_05.png using Guid(821532ef4e380644f88ed17f6d208663) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '79ac4ac1f4c346d98e845681618eba6d') in 0.066131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_17.png
+  artifactKey: Guid(af59ea2d8b9f0ba41bd8b074715a9af7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_17.png using Guid(af59ea2d8b9f0ba41bd8b074715a9af7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7423f36b83713d65687f293042510900') in 0.077035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Attack/Attack_00.png
+  artifactKey: Guid(96b865e0a2e8ee54cbb287c834d143a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Attack/Attack_00.png using Guid(96b865e0a2e8ee54cbb287c834d143a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '786743208f4b2737f75bb14bd2c3217e') in 0.090771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Attack/Attack_06.png
+  artifactKey: Guid(6fe722f28342e314290192de527da1b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Attack/Attack_06.png using Guid(6fe722f28342e314290192de527da1b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dea059caf89d5c7472626e4863e8ef38') in 0.083447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/GUI/Orange_btn.png
+  artifactKey: Guid(a07f2f7760613524fae806d0568912e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/GUI/Orange_btn.png using Guid(a07f2f7760613524fae806d0568912e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '09bd9f57363b5dd11d1ad4d3c0567b99') in 0.060237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_16.png
+  artifactKey: Guid(d1ec74a35496c444e91b66b23b50fc03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_16.png using Guid(d1ec74a35496c444e91b66b23b50fc03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cacd66daba3ff9ca35d84b8f0c8d61f7') in 0.082426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_10.png
+  artifactKey: Guid(b30efbf34893c5d478e1aa58916fb8f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_10.png using Guid(b30efbf34893c5d478e1aa58916fb8f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8b763c828d5d6c4a3e1cca9d8b82633') in 0.104555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Walk/Walk_08.png
+  artifactKey: Guid(b2869c344d5ca634885cc975fa1b1c84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Walk/Walk_08.png using Guid(b2869c344d5ca634885cc975fa1b1c84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca64a722d0b711e201c42fc689b7fe69') in 0.082363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_27.png
+  artifactKey: Guid(c53d1389208b53940aff91a10a0d5860) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_27.png using Guid(c53d1389208b53940aff91a10a0d5860) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c58d572d6e6731451daf96f74721f1d') in 0.077191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Attack/Attack_12.png
+  artifactKey: Guid(180413b00a3a99548a06d2d639559eaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Attack/Attack_12.png using Guid(180413b00a3a99548a06d2d639559eaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e3e42eb5065a4ce75901a3b974ca094c') in 0.087134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_21.png
+  artifactKey: Guid(75ddd01b45e56fc4abc869a1c256c575) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_21.png using Guid(75ddd01b45e56fc4abc869a1c256c575) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1da01daa61b195ae9d0476ac3105237') in 0.068784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Attack/Attack_22.png
+  artifactKey: Guid(a14d4dcd8417447489e3d67cfaef7cc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Attack/Attack_22.png using Guid(a14d4dcd8417447489e3d67cfaef7cc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '008d65dd5eea3985e4a3fc6f5f5e3dab') in 0.071551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Attack/Attack_02.png
+  artifactKey: Guid(dda5d02890a5ef4409b6ae273754bf98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Attack/Attack_02.png using Guid(dda5d02890a5ef4409b6ae273754bf98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46874d87a0e3123d900bd3282ac20616') in 0.088725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_08.png
+  artifactKey: Guid(4f6635c3bb33c5c49a382ddb9b38517a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_08.png using Guid(4f6635c3bb33c5c49a382ddb9b38517a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2896f8c8ea78d074531a8a751748147a') in 0.064731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_24.png
+  artifactKey: Guid(16e3555b6444e6c42b2c985ceb078a25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_24.png using Guid(16e3555b6444e6c42b2c985ceb078a25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3d5723840eda52d465a7be6bf96d8650') in 0.071194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Attack/Attack_07.png
+  artifactKey: Guid(fdb85fac6eb1c524ba4417daa43018a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Attack/Attack_07.png using Guid(fdb85fac6eb1c524ba4417daa43018a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51b04be9900038610067fb1c18b0eeef') in 0.090633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_39.png
+  artifactKey: Guid(910ceb6ad897334478302ad5e5bc7d4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_39.png using Guid(910ceb6ad897334478302ad5e5bc7d4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c6847cce35c0b82133929d321e8fffd5') in 0.078148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_31.png
+  artifactKey: Guid(4bf6439c7fc3d5241ae9d2d7fb91f024) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_31.png using Guid(4bf6439c7fc3d5241ae9d2d7fb91f024) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e1ab0113079072ebb46f176128ea3744') in 0.081769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_37.png
+  artifactKey: Guid(db3e5cbdf8fc1bc47b9d8645c1b905c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_37.png using Guid(db3e5cbdf8fc1bc47b9d8645c1b905c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3c527bdd12654a877fc2fd798d72dd27') in 0.073509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_28.png
+  artifactKey: Guid(f236bf97a75def146af9da5dbd9f6190) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_28.png using Guid(f236bf97a75def146af9da5dbd9f6190) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '373b24c706e81c72303ef5e60735ff17') in 0.056247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_23.png
+  artifactKey: Guid(adee5943068023341aea79239c5e43ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_23.png using Guid(adee5943068023341aea79239c5e43ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f8369ae7c5a592c8635c1c30468cd6e0') in 0.060221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_22.png
+  artifactKey: Guid(8c30b18051efc30468c41871091d29e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_22.png using Guid(8c30b18051efc30468c41871091d29e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f7e076ef27c53ff0f3511926d1dee6f') in 0.064927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Attack/Attack_11.png
+  artifactKey: Guid(a4f6fac91c2172248898d9c6c27457fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Attack/Attack_11.png using Guid(a4f6fac91c2172248898d9c6c27457fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8af1ee2c57496ba1960f6754b6df93c9') in 0.061325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Attack/Attack_30.png
+  artifactKey: Guid(f988e21be31d98b47a4b087223452860) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Attack/Attack_30.png using Guid(f988e21be31d98b47a4b087223452860) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1546044d13d79d8c4ca3f648ff977bbf') in 0.099270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_15.png
+  artifactKey: Guid(dc51c75a5278b0947abb0d9e3cacbcbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_15.png using Guid(dc51c75a5278b0947abb0d9e3cacbcbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '83998eb8cde0c7dce54be29958cd32b7') in 0.075794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Attack/Attack_12.png
+  artifactKey: Guid(5bc19313751129a48adad1bd960b90d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Attack/Attack_12.png using Guid(5bc19313751129a48adad1bd960b90d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c60e1370494b969e1764f119bc9263ec') in 0.070958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Attack/Attack_16.png
+  artifactKey: Guid(1b46c3072f426a04c8a17b8fe0a93864) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Attack/Attack_16.png using Guid(1b46c3072f426a04c8a17b8fe0a93864) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb0f2a697a675240e4718ebdd56acdcf') in 0.077066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Attack/Attack_18.png
+  artifactKey: Guid(7dd1bc1c86cb5ff469cd03f35a40d302) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Attack/Attack_18.png using Guid(7dd1bc1c86cb5ff469cd03f35a40d302) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4eb3b5b9121ce032f19843c57f1b22f') in 0.072754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_25.png
+  artifactKey: Guid(37bd33a3bb5a0c84cb984348f1ea3ae3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_25.png using Guid(37bd33a3bb5a0c84cb984348f1ea3ae3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '770e680ea13f3023ca922147ea182b9f') in 0.063080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_36.png
+  artifactKey: Guid(2b326c1e854410d4d920ccf729e96b15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_36.png using Guid(2b326c1e854410d4d920ccf729e96b15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e49556abc66e9edae92d2d1f9f6bcfe') in 0.074248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_05.png
+  artifactKey: Guid(a132b5b090e8ad948be2d1c4292f34a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_05.png using Guid(a132b5b090e8ad948be2d1c4292f34a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab9d540ba20b77182f174ddb824a7583') in 0.084347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Attack/Attack_17.png
+  artifactKey: Guid(af897ba5cf8de3842a279523921d37c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Attack/Attack_17.png using Guid(af897ba5cf8de3842a279523921d37c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b10441147b128f6071a9b3072d18b5a3') in 0.077435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Walk/Walk_03.png
+  artifactKey: Guid(55a6d0cee04016744869538487956eae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Walk/Walk_03.png using Guid(55a6d0cee04016744869538487956eae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7fcabb672872e7999e9f6f72edf929cb') in 0.064537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Walk/Walk_09.png
+  artifactKey: Guid(24170cecb7c102e43889e8082f2a2e9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Walk/Walk_09.png using Guid(24170cecb7c102e43889e8082f2a2e9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ee44034b0b74c8ac714f2b4bbf37ce22') in 0.073572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Attack/Attack_05.png
+  artifactKey: Guid(1c5f574021ec74c46aa05c1c72e2da5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Attack/Attack_05.png using Guid(1c5f574021ec74c46aa05c1c72e2da5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aba222214baf8da36a79214fe95878d3') in 0.075106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Death/Death_21.png
+  artifactKey: Guid(05bc655c22b68ad4a8bf07c9dab92b66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Death/Death_21.png using Guid(05bc655c22b68ad4a8bf07c9dab92b66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b3ff034cf5ba0180f33974ac47f68cfb') in 0.107656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_02.png
+  artifactKey: Guid(82a4c75759e477b43bff8d16d1d9d34f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_02.png using Guid(82a4c75759e477b43bff8d16d1d9d34f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e315f174716ab4ec22b5e0dce58805e') in 0.060516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Attack/Attack_09.png
+  artifactKey: Guid(dc41d63a8772a4b42937a1bdc4d95e1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Attack/Attack_09.png using Guid(dc41d63a8772a4b42937a1bdc4d95e1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9170b512f77f77469bb6092d939a25b4') in 0.067555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Attack/Attack_14.png
+  artifactKey: Guid(910be0d2f64680e42bfdc98844eee6b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Attack/Attack_14.png using Guid(910be0d2f64680e42bfdc98844eee6b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf42a6bf820842cde76aa2560f4a8167') in 0.108074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Walk/Walk_18.png
+  artifactKey: Guid(8ffc3318ec2607147844c354003d4734) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Walk/Walk_18.png using Guid(8ffc3318ec2607147844c354003d4734) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '95120cbf86d80bacb06fc64d37df57ee') in 0.120230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Attack/Attack_08.png
+  artifactKey: Guid(8d0e44290a03db74eb19764decae2817) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Attack/Attack_08.png using Guid(8d0e44290a03db74eb19764decae2817) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb8be7e9f04419c704ae1f18e97afd13') in 0.256522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Walk/Walk_02.png
+  artifactKey: Guid(c3159dbe5d1bbc74fbaaa0ab4e5004f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Walk/Walk_02.png using Guid(c3159dbe5d1bbc74fbaaa0ab4e5004f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '784a6e1b32611f6e4df3abdd20b0cd30') in 0.070938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Walk/Walk_06.png
+  artifactKey: Guid(7edf0fd34314e224b84b9e164e296e75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Walk/Walk_06.png using Guid(7edf0fd34314e224b84b9e164e296e75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '098fd0809844c1b64682d61c486d69db') in 0.064515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_46.png
+  artifactKey: Guid(3d0fd66bce9a2994196c1b5d8178b16b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_46.png using Guid(3d0fd66bce9a2994196c1b5d8178b16b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc07862cbad0af0e614f161cac337409') in 0.143328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Attack/Attack_10.png
+  artifactKey: Guid(8d4153c85c607354baf6d96ed4ac7937) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Attack/Attack_10.png using Guid(8d4153c85c607354baf6d96ed4ac7937) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '536b26af62774e160e23f62b5487cfbf') in 0.190425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Walk/Walk_11.png
+  artifactKey: Guid(0576540597c3cc549a785333eb863284) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Walk/Walk_11.png using Guid(0576540597c3cc549a785333eb863284) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '42ee0de71b546b8767f61393de2d1d0f') in 0.153467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_48.png
+  artifactKey: Guid(c0124243dab498f4db52586e1e1b3554) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_48.png using Guid(c0124243dab498f4db52586e1e1b3554) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44fd5e764f971b0437e69a4993d2438c') in 0.086463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Attack/Attack_02.png
+  artifactKey: Guid(2a44fc83c909c7b408b3e49e0bfc9697) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Attack/Attack_02.png using Guid(2a44fc83c909c7b408b3e49e0bfc9697) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '452eebca8c3f8af1e5abb28ce5630f8a') in 0.104894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Walk/Walk_07.png
+  artifactKey: Guid(2651edaeefa81c247a2084936320de9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Walk/Walk_07.png using Guid(2651edaeefa81c247a2084936320de9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '65ecfa49c8d5548976573121e7f608d8') in 0.063112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Attack/Attack_18.png
+  artifactKey: Guid(9482d723a08e2124d9496780f6685be3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Attack/Attack_18.png using Guid(9482d723a08e2124d9496780f6685be3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2a856acade9319ec6767b695d37bd83d') in 0.199289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Attack/Attack_09.png
+  artifactKey: Guid(338409f94ccc76e41849d9d10902b66d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Attack/Attack_09.png using Guid(338409f94ccc76e41849d9d10902b66d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1862b92ab1156e05e890a32137f103b') in 0.089195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Attack/Attack_03.png
+  artifactKey: Guid(d304f4bc72cdefa43adbae01f7796f91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Attack/Attack_03.png using Guid(d304f4bc72cdefa43adbae01f7796f91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6497f4e331a4cd5b58137d80ca50c69c') in 0.136756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Death/Death_17.png
+  artifactKey: Guid(872a5ef72d2d61d41840d821da37d55d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Death/Death_17.png using Guid(872a5ef72d2d61d41840d821da37d55d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f9f9337b87aff9c9f153f5576862f572') in 0.089917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Death/Death_05.png
+  artifactKey: Guid(0f0d2a1c76623e240acda96cb2bd6c42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Death/Death_05.png using Guid(0f0d2a1c76623e240acda96cb2bd6c42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e16be0b282d59c03eb04af032bff25e') in 0.128258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Death/Death_16.png
+  artifactKey: Guid(922d16c0f484e614b955ac97c98dedc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Death/Death_16.png using Guid(922d16c0f484e614b955ac97c98dedc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a533c90f67a1dd39b7cc44878233fc05') in 0.143090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Death/Death_19.png
+  artifactKey: Guid(c29689cb08c32314fb1efde132ff5f7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Death/Death_19.png using Guid(c29689cb08c32314fb1efde132ff5f7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52c34432655421a0591ce6fb14432234') in 0.128545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Death/Death_13.png
+  artifactKey: Guid(ce9193f73b895dd49a3fdc514e62fc08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Death/Death_13.png using Guid(ce9193f73b895dd49a3fdc514e62fc08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '25fcb2ad17bf8c75beb71740d8b1555b') in 0.078426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Death/Death_09.png
+  artifactKey: Guid(5ec640dc6b500da40b5dae195f0f76cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Death/Death_09.png using Guid(5ec640dc6b500da40b5dae195f0f76cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd7bceed8ec30afd8a36945cfb285ab18') in 0.103053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Idle/Idle_07.png
+  artifactKey: Guid(1c0e9cc790fa8944b99384815dda5994) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Idle/Idle_07.png using Guid(1c0e9cc790fa8944b99384815dda5994) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7940ef98d0161d7d010748169e4d6e8') in 0.080781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Death/Death_11.png
+  artifactKey: Guid(e8b17ac5608bce946be6c62fcce57a9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Death/Death_11.png using Guid(e8b17ac5608bce946be6c62fcce57a9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '622c79728eadd4b307cb1bcd6eed16e6') in 0.163698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Death/Death_02.png
+  artifactKey: Guid(9c05d5375b85d234a8d173be8a97adf0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Death/Death_02.png using Guid(9c05d5375b85d234a8d173be8a97adf0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '356606681a253b4e6f5e700e7749261b') in 0.104993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Attack/Attack_05.png
+  artifactKey: Guid(451f04c516ce1f54c9095c9014283844) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Attack/Attack_05.png using Guid(451f04c516ce1f54c9095c9014283844) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1a134c63507a2bb871be5d7c488163ff') in 0.140339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Attack/Attack_07.png
+  artifactKey: Guid(ed77d0a7de74afc4bb3b90033b71eca4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Attack/Attack_07.png using Guid(ed77d0a7de74afc4bb3b90033b71eca4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a1fc8934b5190bb0e1d008fbd5bccbf') in 0.106496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Attack/Attack_01.png
+  artifactKey: Guid(6fe137cb371dbad4bb016d499826624f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Attack/Attack_01.png using Guid(6fe137cb371dbad4bb016d499826624f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc32aaedc1157e067b2f7530a3f0e684') in 0.147389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Walk/Walk_09.png
+  artifactKey: Guid(3ed45c31f1f76074298d9062267564dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Walk/Walk_09.png using Guid(3ed45c31f1f76074298d9062267564dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c4b645aff495d04677878622fc6974dd') in 0.109112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Death/Death_06.png
+  artifactKey: Guid(8153017c376fd364fb4a28ca42f8cea4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Death/Death_06.png using Guid(8153017c376fd364fb4a28ca42f8cea4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a27f8b6f549c196c2c443fc39dce79ca') in 0.116566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Idle/Idle_01.png
+  artifactKey: Guid(893a8050a7c70734391573972f526e85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Idle/Idle_01.png using Guid(893a8050a7c70734391573972f526e85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf8d63c2648d08d6441849d47ef87633') in 0.321954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Death/Death_01.png
+  artifactKey: Guid(08ddd6191a5029942994e421e85b0a5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Death/Death_01.png using Guid(08ddd6191a5029942994e421e85b0a5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7cff0b2890b95ba0595c963883abc21e') in 0.194472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Death/Death_05.png
+  artifactKey: Guid(ced6979bf3a49ee4d8bbf641a34169e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Death/Death_05.png using Guid(ced6979bf3a49ee4d8bbf641a34169e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1a9a313a82e0fe37ca80d5f4dc4d01a8') in 0.098011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Idle/Idle_12.png
+  artifactKey: Guid(ea5c62df0ec0bd64ba7ca63e60c455c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Idle/Idle_12.png using Guid(ea5c62df0ec0bd64ba7ca63e60c455c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f0c12e83380b719580e2c4b9050afa3') in 0.119739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Attack/Attack_10.png
+  artifactKey: Guid(71cfa810f8fef224ca4ec0b906f1a11d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Attack/Attack_10.png using Guid(71cfa810f8fef224ca4ec0b906f1a11d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f4dc146f3bc2edcc180bbaf8539454e') in 0.058929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Death/Death_04.png
+  artifactKey: Guid(884d121eb9c8eda489dba90f3596f296) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Death/Death_04.png using Guid(884d121eb9c8eda489dba90f3596f296) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb6b83adfd198779baa73a240bd5bd3a') in 0.077812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Attack/Attack_15.png
+  artifactKey: Guid(e23472f07b7506649ae4c12074cb29f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Attack/Attack_15.png using Guid(e23472f07b7506649ae4c12074cb29f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef4d4cdff282b9678dfa7719b8e76f15') in 0.112043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Death/Death_07.png
+  artifactKey: Guid(ca5e002689f01514fb355f61809313ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Death/Death_07.png using Guid(ca5e002689f01514fb355f61809313ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29f31a0ec249e5aff4562ea5f9c9a10a') in 0.178365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Attack/Attack_13.png
+  artifactKey: Guid(324f54cefe2dfa04eb5d1b85ad49db34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Attack/Attack_13.png using Guid(324f54cefe2dfa04eb5d1b85ad49db34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e5ad9d7b5fb056266bc152ea88101702') in 0.084099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Attack/Attack_04.png
+  artifactKey: Guid(68d7aeb12338ca043bf094a026f9717e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Attack/Attack_04.png using Guid(68d7aeb12338ca043bf094a026f9717e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7dfcd85b44709e7beb5dd0a8908728da') in 0.146670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Death/Death_02.png
+  artifactKey: Guid(c2c0e3e96fea5de469328224bc4b8fe4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Death/Death_02.png using Guid(c2c0e3e96fea5de469328224bc4b8fe4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '84411b9c312f40b2dba5620b40f2394e') in 0.086537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Death/Death_00.png
+  artifactKey: Guid(a6fb14863272b0b4eb5e43a378923df4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Death/Death_00.png using Guid(a6fb14863272b0b4eb5e43a378923df4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc0500a7b3f3205169f62ea2b0d1d715') in 0.063647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Death/Death_15.png
+  artifactKey: Guid(01054a04fb8623a418e77895cdb3c15f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Death/Death_15.png using Guid(01054a04fb8623a418e77895cdb3c15f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c8e4aab872300ecf501fcbe3f6dd3dd6') in 0.136248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Death/Death_12.png
+  artifactKey: Guid(d9b8870cd43e118488695f650d7528ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Death/Death_12.png using Guid(d9b8870cd43e118488695f650d7528ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '208480b1b7aa733aa77114e10c704666') in 0.293719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_13.png
+  artifactKey: Guid(ce7dcefc581966f4982ed7981d7da582) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_13.png using Guid(ce7dcefc581966f4982ed7981d7da582) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d891989a9f58bd2fe0cb710ca7c33b5') in 0.099634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/GUI/Progress-bar-BG.png
+  artifactKey: Guid(489c75b7d02d8864798cd52d65224e2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/GUI/Progress-bar-BG.png using Guid(489c75b7d02d8864798cd52d65224e2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '424534ab3b18c24717c08d83d82f8978') in 0.072763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Walk/Walk_14.png
+  artifactKey: Guid(8ec3da100ec79f64abc0f5c4606828c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Walk/Walk_14.png using Guid(8ec3da100ec79f64abc0f5c4606828c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2567323d91508f180e59fadc1c34276d') in 0.240433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Idle/Idle_05.png
+  artifactKey: Guid(8a1955b1fba34f64ca581c7fc5ab18fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Idle/Idle_05.png using Guid(8a1955b1fba34f64ca581c7fc5ab18fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c688df6ebcef85a917add24ff282f6ac') in 0.075081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Death/Death_10.png
+  artifactKey: Guid(6b5d1d506c56ab74fb1a273d7ea69125) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Death/Death_10.png using Guid(6b5d1d506c56ab74fb1a273d7ea69125) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c98a8fcdc7a2bd04d293227ef1bcc2c2') in 0.217711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Death/Death_15.png
+  artifactKey: Guid(1f1009be9aa26304ebbf1dd30a9188c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Death/Death_15.png using Guid(1f1009be9aa26304ebbf1dd30a9188c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '69483c7133384b0af97e9171811d29e8') in 0.077270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Idle/Idle_13.png
+  artifactKey: Guid(19332061021d5ff4582d1af20b13e5b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Idle/Idle_13.png using Guid(19332061021d5ff4582d1af20b13e5b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0813bc498e706aa3bc52db29bdbbd4c7') in 0.101514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Idle/Idle_04.png
+  artifactKey: Guid(396b0f999554c60439210b5a288d61a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Idle/Idle_04.png using Guid(396b0f999554c60439210b5a288d61a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '69fde6b8f86af30b21b74e3ea5198aa7') in 0.074559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Idle/Idle_03.png
+  artifactKey: Guid(b9b0ab404fca52540b854c37f0867485) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Idle/Idle_03.png using Guid(b9b0ab404fca52540b854c37f0867485) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '407bcc94beda98f4b9d0d1915f7135b7') in 0.165812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Idle/Idle_01.png
+  artifactKey: Guid(682472b1892a35343bc0dbd46502c64c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Idle/Idle_01.png using Guid(682472b1892a35343bc0dbd46502c64c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '69c8d6a48520040505c96125dfee2358') in 0.164713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_05.png
+  artifactKey: Guid(8eae027b7b4fae64e897bf0b95d28747) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_05.png using Guid(8eae027b7b4fae64e897bf0b95d28747) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c8b375ddc1a6df4e8e2391936fffc54c') in 0.191271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Death/Death_11.png
+  artifactKey: Guid(e5a349af6dfb53746812b82280c0075d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Death/Death_11.png using Guid(e5a349af6dfb53746812b82280c0075d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '70108c9c9525f83755821ded7302c40a') in 0.080822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_01.png
+  artifactKey: Guid(083d4af5a5e59b443a66fe3fc73e9c40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_01.png using Guid(083d4af5a5e59b443a66fe3fc73e9c40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a843c290e5c592165dac4e64456bd961') in 0.089760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_00.png
+  artifactKey: Guid(9607b074a3b172c49bb6df7b5f01bb73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_00.png using Guid(9607b074a3b172c49bb6df7b5f01bb73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d8875d0de0a573075b853e7fd0c8dee') in 0.071893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_04.png
+  artifactKey: Guid(eef155d2be0899047a5487f45d079972) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_04.png using Guid(eef155d2be0899047a5487f45d079972) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f4783aa21c479f3f1fc0a4ab97d4a53') in 0.094554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_18.png
+  artifactKey: Guid(9ff436b929c71d54ab31efeb944099d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_18.png using Guid(9ff436b929c71d54ab31efeb944099d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc5d83e6fb5d899ed0704fec8d7632a6') in 0.077444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_20.png
+  artifactKey: Guid(1667d198c1ba6f546a7742cb48831c60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_20.png using Guid(1667d198c1ba6f546a7742cb48831c60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '95e2da63fa8ca55de6d692c4cbea1bc6') in 0.068758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_15.png
+  artifactKey: Guid(12b990c2975faa940b91ba6325291005) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_15.png using Guid(12b990c2975faa940b91ba6325291005) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c482881428371e6b3dd5ee70d695404') in 0.065596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_07.png
+  artifactKey: Guid(0db1175e88811cf4cab4dc3ff4f2b304) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_07.png using Guid(0db1175e88811cf4cab4dc3ff4f2b304) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '81bfceb72aa210f2ba946c598caf0227') in 0.065922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_13.png
+  artifactKey: Guid(c3a020911955a6445aef59eccc94b4fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_13.png using Guid(c3a020911955a6445aef59eccc94b4fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '542c8a1184a54ccab13650084a39b91c') in 0.079586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Idle/Idle_09.png
+  artifactKey: Guid(72a90d8c446e85243a12d81134bbc75d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Idle/Idle_09.png using Guid(72a90d8c446e85243a12d81134bbc75d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0ad9312c645054774b872b1a0e90241') in 0.076066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_23.png
+  artifactKey: Guid(7e302ee0011fe0848bc72da3fa85a67f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_23.png using Guid(7e302ee0011fe0848bc72da3fa85a67f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0653fd16447b23a6e2b791e1081607ad') in 0.079792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_24.png
+  artifactKey: Guid(6f339ba4ce9f1f3499b5844e2bb3029a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_24.png using Guid(6f339ba4ce9f1f3499b5844e2bb3029a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29148a56e67589f73cb86ce9def62b44') in 0.111428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_01.png
+  artifactKey: Guid(457d64b91a6be354aa5cfc600fafad3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_01.png using Guid(457d64b91a6be354aa5cfc600fafad3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '59314c1ef8aa62ccf639778f2a3b27f0') in 0.077191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_29.png
+  artifactKey: Guid(ecd9391d0419f9b448ff99dbc18b312f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_29.png using Guid(ecd9391d0419f9b448ff99dbc18b312f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '37e5799c6e04635cae394d1c0bef377f') in 0.065858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Death/Death_09.png
+  artifactKey: Guid(8a4feed5676d0d04ba8c409736361429) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Death/Death_09.png using Guid(8a4feed5676d0d04ba8c409736361429) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5491ae5a64af62859623ac65d6be4d39') in 0.066801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_03.png
+  artifactKey: Guid(1c17b22fae54f7b4dae56f8b8e0049e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_03.png using Guid(1c17b22fae54f7b4dae56f8b8e0049e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc2f05f84251ed26c8e582f027050414') in 0.080831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_11.png
+  artifactKey: Guid(78d6ff6ea6a64a54bb00c3ae7074a823) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_11.png using Guid(78d6ff6ea6a64a54bb00c3ae7074a823) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9fa9a3add6eadd997d7c9f0ff31ae722') in 0.095953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_09.png
+  artifactKey: Guid(7992b97d61cb03d448eadc7a4581e2c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_09.png using Guid(7992b97d61cb03d448eadc7a4581e2c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b285feb1610510293ce8f51f2c89c45') in 0.083975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_07.png
+  artifactKey: Guid(1b412ce7a48aa29459328b02eef8fee3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_07.png using Guid(1b412ce7a48aa29459328b02eef8fee3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26fff7bf5a029f055bb9bc7d16dc7484') in 0.071396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_17.png
+  artifactKey: Guid(6b07f03bed35ab7439b694a15ce3f613) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_17.png using Guid(6b07f03bed35ab7439b694a15ce3f613) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de7eb31432f4a01ba1498e3adf3c4770') in 0.084988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_06.png
+  artifactKey: Guid(3398bf042428f4441ac29b9efb85731e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_06.png using Guid(3398bf042428f4441ac29b9efb85731e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '958c92123e268c84b76a37d187df07e6') in 0.095261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_17.png
+  artifactKey: Guid(93b732731bc34114184b393f8db577cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_17.png using Guid(93b732731bc34114184b393f8db577cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8bcad2a97c995ac02407cde7ddad0ba') in 0.073233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_18.png
+  artifactKey: Guid(a07e5dda3357fa742ae46ac8a09adf57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_18.png using Guid(a07e5dda3357fa742ae46ac8a09adf57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df302d6f2284a2aa653e4c1d70e4fae1') in 0.206454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_15.png
+  artifactKey: Guid(c70a252f2e143164a876b019c2c598df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_15.png using Guid(c70a252f2e143164a876b019c2c598df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '379c50ce110d31ab5cb55ba50b327dae') in 0.077913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_24.png
+  artifactKey: Guid(a344bd83b2aa9694fa36c5d1f2812be1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_24.png using Guid(a344bd83b2aa9694fa36c5d1f2812be1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b149e1d8bc4e6b9a181c5a1f6f15ff2') in 0.095904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_33.png
+  artifactKey: Guid(49617cb4bbf96f44ab8250dab41318c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_33.png using Guid(49617cb4bbf96f44ab8250dab41318c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fa814bc886c1872b415ece5b0f86d7e9') in 0.087976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_32.png
+  artifactKey: Guid(6f90eb2f85f359e4690c1f3accf808ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_32.png using Guid(6f90eb2f85f359e4690c1f3accf808ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a1bafdb25537152b78be57376c9f11c9') in 0.073699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_26.png
+  artifactKey: Guid(4255281469f91834580034d08bfb7d86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_26.png using Guid(4255281469f91834580034d08bfb7d86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bb529ca5c899529fea8002d66dc1dcf9') in 0.115126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_10.png
+  artifactKey: Guid(6c7167ac98933b6499f24b66e79925c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_10.png using Guid(6c7167ac98933b6499f24b66e79925c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '179397b470032f377929e146596bdffc') in 0.073818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_12.png
+  artifactKey: Guid(7697d195f01a9044fbf6a8237f3c9b54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_12.png using Guid(7697d195f01a9044fbf6a8237f3c9b54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab763cd18a36760528ee719ef1f210c4') in 0.077912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_38.png
+  artifactKey: Guid(bada25aaba17acd41a1e36b0b8fa5c80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_38.png using Guid(bada25aaba17acd41a1e36b0b8fa5c80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f80c0bc9557d5140a77b3118c518261') in 0.077895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_40.png
+  artifactKey: Guid(b9cb4eaf5906cd84bafefe8360a3eff2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_40.png using Guid(b9cb4eaf5906cd84bafefe8360a3eff2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cee8d5335c89bcbf88ffeddd01f74513') in 0.106058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_39.png
+  artifactKey: Guid(8f0d371ba425a53458f977aaf7339c93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_39.png using Guid(8f0d371ba425a53458f977aaf7339c93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d02a8034fb6c01a58974cfbf51d3862') in 0.058833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_22.png
+  artifactKey: Guid(e9c21935648b6ad4f80ffbf0ec53d020) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_22.png using Guid(e9c21935648b6ad4f80ffbf0ec53d020) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '90c0efa5e16fb3a82e91423ac66ef58c') in 0.093159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Death/Death_12.png
+  artifactKey: Guid(9c09741c6fc8636449d0ebd06ad1c3f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Death/Death_12.png using Guid(9c09741c6fc8636449d0ebd06ad1c3f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d576002652b4bd9e9b2ac9236e30f07') in 0.062358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_09.png
+  artifactKey: Guid(435e635195f6703498979443635c56e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_09.png using Guid(435e635195f6703498979443635c56e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e1e1a84c2382d60c83fd83a3fa5a2139') in 0.073109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Death/Death_08.png
+  artifactKey: Guid(8101c89becfd1ad4a91cab9f80441c64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Death/Death_08.png using Guid(8101c89becfd1ad4a91cab9f80441c64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eab75e44937125375be81563ed3afd84') in 0.217407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Idle/Idle_05.png
+  artifactKey: Guid(b3c67db26337e21408f721ba510a91db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Idle/Idle_05.png using Guid(b3c67db26337e21408f721ba510a91db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd735b5178b4bf1063d39488be821dc9') in 0.080969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Attack/Attack_08.png
+  artifactKey: Guid(b84b2797bff2c0443b486ceff1aab59d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Attack/Attack_08.png using Guid(b84b2797bff2c0443b486ceff1aab59d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9426ddf517aad17fc7c764e92275f2e4') in 0.069279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Death/Death_11.png
+  artifactKey: Guid(2ee3519dbf4f4184ab2111a1e16a98ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Death/Death_11.png using Guid(2ee3519dbf4f4184ab2111a1e16a98ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc5a62feecd6bffd8f90e3b4d83997b0') in 0.058766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_09.png
+  artifactKey: Guid(1a561327b8bce4349be9faec16fcd3d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_09.png using Guid(1a561327b8bce4349be9faec16fcd3d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e3e67919b506ae6cebeb62f03a82544f') in 0.123130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_33.png
+  artifactKey: Guid(ce559dcaa6fc99e498e510687df3bfa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_33.png using Guid(ce559dcaa6fc99e498e510687df3bfa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5165e81f043e6e00c12ea6dbef6a0ca0') in 0.062974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_45.png
+  artifactKey: Guid(4462bcd10abb0a44eb7691896f23bf8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_45.png using Guid(4462bcd10abb0a44eb7691896f23bf8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad55c028ac0a603b5da613b54df4c061') in 0.062751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Walk/Walk_05.png
+  artifactKey: Guid(395791a011ad6a24885e18400f5a7fba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Walk/Walk_05.png using Guid(395791a011ad6a24885e18400f5a7fba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8435b0607d84513bedfca6df6fccc037') in 0.062653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_30.png
+  artifactKey: Guid(6916f05ff7065354b857582f79592c9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_30.png using Guid(6916f05ff7065354b857582f79592c9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '88b80ae56a12a457f4b83d9f882f924a') in 0.095796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_26.png
+  artifactKey: Guid(97a014e31f8565f48a6dc55a99a7fb79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_26.png using Guid(97a014e31f8565f48a6dc55a99a7fb79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '18bbac27bc7777c644ee8d9152b760f8') in 0.054742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_29.png
+  artifactKey: Guid(d0193679213284e47a3c27e533e616ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_29.png using Guid(d0193679213284e47a3c27e533e616ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '664c1b330aae54556861025e953fba35') in 0.070965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Death/Death_25.png
+  artifactKey: Guid(141da898b5e2a4a4c81744e2374c2736) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Death/Death_25.png using Guid(141da898b5e2a4a4c81744e2374c2736) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '77c9f2a72bea43e13c56e478fbeb5eb1') in 0.055691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Attack/Attack_16.png
+  artifactKey: Guid(47e3bf46964a30547b5ed102ef074675) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Attack/Attack_16.png using Guid(47e3bf46964a30547b5ed102ef074675) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19f8e25fbc89288285d1d23d53486cd5') in 0.076991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_49.png
+  artifactKey: Guid(1d9e17923790e8849b750345a76c55a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_49.png using Guid(1d9e17923790e8849b750345a76c55a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b55632d8aab97daeb4f9e85eddc2ff8') in 0.059493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Death/Death_00.png
+  artifactKey: Guid(f2206944ecda0dc43b3058d53317dcb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Death/Death_00.png using Guid(f2206944ecda0dc43b3058d53317dcb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c46c1fd0ed8f186bc9761a88fd852c6') in 0.085560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Walk/Walk_15.png
+  artifactKey: Guid(2364675ccf5394b479d5f08dfa3ea19d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Walk/Walk_15.png using Guid(2364675ccf5394b479d5f08dfa3ea19d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd5fa4230e9a2efdbf7938121e367448') in 0.072839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_20.png
+  artifactKey: Guid(c9cb38462ff73b042ac2621578bef162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_20.png using Guid(c9cb38462ff73b042ac2621578bef162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dca1c48eb5a16ee682283ebb39f64d7d') in 0.057277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Death/Death_03.png
+  artifactKey: Guid(7df722b4181b6ab45aba658d6b9d8889) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Death/Death_03.png using Guid(7df722b4181b6ab45aba658d6b9d8889) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6105bbbf31d2a5f5ce90fd3471e9df0d') in 0.062253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Attack/Attack_15.png
+  artifactKey: Guid(7d194c529daee7243b6685e7795b4c3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Attack/Attack_15.png using Guid(7d194c529daee7243b6685e7795b4c3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e1b890542025a3ccfaff5ee5737f4dc3') in 0.091609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Walk/Walk_16.png
+  artifactKey: Guid(c89d70782fe3b714a9e4606b5f2483e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Walk/Walk_16.png using Guid(c89d70782fe3b714a9e4606b5f2483e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a49da7aed5472811b0c7fd013f56e130') in 0.059744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_38.png
+  artifactKey: Guid(4dc398ca0f1b92844bc305768efd6978) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_38.png using Guid(4dc398ca0f1b92844bc305768efd6978) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef10c22f85d30c6a87b67f13c19b699e') in 0.080566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_14.png
+  artifactKey: Guid(a4bd9872de13d694bb38063668439c16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_14.png using Guid(a4bd9872de13d694bb38063668439c16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '05271f5175be0f37dc295d0da5baa6ab') in 0.059574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Idle/Idle_13.png
+  artifactKey: Guid(134e87a029ae8144e85f274780053390) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/01/Idle/Idle_13.png using Guid(134e87a029ae8144e85f274780053390) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8b5bff1cab35369bb735a95777ff367') in 0.081816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Attack/Attack_01.png
+  artifactKey: Guid(3e58427001ea20f46aef0642a7c72a4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Attack/Attack_01.png using Guid(3e58427001ea20f46aef0642a7c72a4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '81338f46b1438383c689d08843f3fe76') in 0.071145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_41.png
+  artifactKey: Guid(091b0a872c271f74287a2c3e1590ea98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_41.png using Guid(091b0a872c271f74287a2c3e1590ea98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '909d7fe5421b9eb6f6559626f694e994') in 0.084041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Walk/Walk_08.png
+  artifactKey: Guid(63ab19e2af977da408051376bfeac685) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Walk/Walk_08.png using Guid(63ab19e2af977da408051376bfeac685) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f65f60e7f1e60d07aee2feeb8fa0f95') in 0.088706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_30.png
+  artifactKey: Guid(6afb65c9f2869b14ab839e572a49caf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_30.png using Guid(6afb65c9f2869b14ab839e572a49caf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e40ea588263e9c319a19738a38ad9584') in 0.072376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Attack/Attack_02.png
+  artifactKey: Guid(7c5c595f9827b714dab32c5a2b9d4d93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Attack/Attack_02.png using Guid(7c5c595f9827b714dab32c5a2b9d4d93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '549a75c2cb439d01c65783649f405001') in 0.057907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_02.png
+  artifactKey: Guid(57627caa52311434ca7fde1fac7e639e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Attack/Attack_02.png using Guid(57627caa52311434ca7fde1fac7e639e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8975c74dbc05f1fe984e64a710dfaf77') in 0.076202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Attack/Attack_12.png
+  artifactKey: Guid(f0281a04e0657e1499cb219f4b3304ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Attack/Attack_12.png using Guid(f0281a04e0657e1499cb219f4b3304ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ea265f23123e0d5d9c672fa033be7a4') in 0.061910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_29.png
+  artifactKey: Guid(35874ca1ec497ea44a05a16daf153869) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_29.png using Guid(35874ca1ec497ea44a05a16daf153869) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff7dc03faa37ba6d888a82efdc048228') in 0.075999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Walk/Walk_03.png
+  artifactKey: Guid(5a176f6730dad0242a6e8c83dd0ef943) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Walk/Walk_03.png using Guid(5a176f6730dad0242a6e8c83dd0ef943) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ffdd71ce05da9ee2792f2a1b969829db') in 0.063246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_13.png
+  artifactKey: Guid(a0675b57486d98544813c2bf78466711) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/03/Death/Death_13.png using Guid(a0675b57486d98544813c2bf78466711) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b621fc85c01943a01333dd732e4abe3c') in 0.078524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_27.png
+  artifactKey: Guid(9da356b78d479514faaefa63469b4b92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_27.png using Guid(9da356b78d479514faaefa63469b4b92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9fb92f0aa98dbcc82a4b558d8602684e') in 0.078280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_34.png
+  artifactKey: Guid(4aac2117e9dda4b4484f249112be7c25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_34.png using Guid(4aac2117e9dda4b4484f249112be7c25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '979b2324cdbd59e2f5b06da31c86e7b7') in 0.098834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_04.png
+  artifactKey: Guid(9ad330da17c8cdf40b1ad85026d4cec0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_04.png using Guid(9ad330da17c8cdf40b1ad85026d4cec0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e28f67df7416f08909100bcf8ba183b0') in 0.085507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Walk/Walk_13.png
+  artifactKey: Guid(fda23515a058d8f4a9bd7ca6247d24ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Walk/Walk_13.png using Guid(fda23515a058d8f4a9bd7ca6247d24ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '327a61ac0dc4d9260585c74333a0fd67') in 0.079989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Death/Death_22.png
+  artifactKey: Guid(ebce7a6382b29c64299c70231f5edc8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/02/Death/Death_22.png using Guid(ebce7a6382b29c64299c70231f5edc8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7acf898de6874300512b6daa1ac7a57') in 0.086730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Walk/Walk_12.png
+  artifactKey: Guid(9806d1f0fc30ec1459041e4ee32e3194) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Walk/Walk_12.png using Guid(9806d1f0fc30ec1459041e4ee32e3194) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3bcba6dcc35d4a2d60e02d4eda9bef95') in 0.090796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_02.png
+  artifactKey: Guid(ec91c8ccc6e0b4e45918a0a5edb69db2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_02.png using Guid(ec91c8ccc6e0b4e45918a0a5edb69db2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '14e0bdb50e7328a92d54a49c3b465667') in 0.075021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Death/Death_03.png
+  artifactKey: Guid(9a0933cb486d97d428b7e845fb6a3a62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/01/Death/Death_03.png using Guid(9a0933cb486d97d428b7e845fb6a3a62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f05827b2ead5d446ece13355815184d') in 0.057519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_31.png
+  artifactKey: Guid(d1e0330ad8daf48469800d1eeacdb320) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Enemy/02/Death/Death_31.png using Guid(d1e0330ad8daf48469800d1eeacdb320) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0139d1f533b5ffbc6562fce6f04838a') in 0.089056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.601345 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_43.png
+  artifactKey: Guid(e5a78b4ea65493e4abeba8bc1eef00c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_43.png using Guid(e5a78b4ea65493e4abeba8bc1eef00c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e5c4f43b45cf269ace96ac75cd8824d7') in 0.123474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Idle/Idle_01.png
+  artifactKey: Guid(58f271bc7e12c7040bdd9c6f58d021c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Idle/Idle_01.png using Guid(58f271bc7e12c7040bdd9c6f58d021c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c960a1a5877db9c662c651d91b8a99b8') in 0.120748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_49.png
+  artifactKey: Guid(03c85f96f1a3ee64c834dbc9e9837512) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_49.png using Guid(03c85f96f1a3ee64c834dbc9e9837512) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4bde5ccaba8815e1ed68ed32d0b2ac4e') in 0.089265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Idle/Idle_18.png
+  artifactKey: Guid(c34160669ff67d04896985f7d50f8aba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Idle/Idle_18.png using Guid(c34160669ff67d04896985f7d50f8aba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe1fd86b625887580a27aee0e477b6f4') in 0.066973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_47.png
+  artifactKey: Guid(d1346aa1305e36c40b94c6b07d8324e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Death/Death_47.png using Guid(d1346aa1305e36c40b94c6b07d8324e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bee629da6bbf2c3127ba48e97578d4e2') in 0.073008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Idle/Idle_02.png
+  artifactKey: Guid(f0928f351bb392b409691d76adb0e0f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Idle/Idle_02.png using Guid(f0928f351bb392b409691d76adb0e0f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c3ee5ea2444f9d2cfe118288441432bc') in 0.061974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Idle/Idle_09.png
+  artifactKey: Guid(c1f115f5c6399714c9e078d4238d73f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Idle/Idle_09.png using Guid(c1f115f5c6399714c9e078d4238d73f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17a2093560eda0a42ccb5b35df8bb7b2') in 0.080550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Idle/Idle_16.png
+  artifactKey: Guid(aee21af5b4b330d44bab6447e1ba97eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Idle/Idle_16.png using Guid(aee21af5b4b330d44bab6447e1ba97eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f84194d10239ec37015a80d5b041a18c') in 0.124437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Idle/Idle_15.png
+  artifactKey: Guid(0a3d4d3af8cdb604c9cc4853ed385b4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Idle/Idle_15.png using Guid(0a3d4d3af8cdb604c9cc4853ed385b4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8844995a2be3075a3c578ceaf6994904') in 0.072499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Idle/Idle_05.png
+  artifactKey: Guid(85e61681defb2364c88491cdf4c65caa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Idle/Idle_05.png using Guid(85e61681defb2364c88491cdf4c65caa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '250557cfe54de99d001da96251e540ff') in 0.082734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Idle/Idle_12.png
+  artifactKey: Guid(46ddb46d6a3e22b46987d5827cbc6647) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Idle/Idle_12.png using Guid(46ddb46d6a3e22b46987d5827cbc6647) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '54be92263f6a3455ec96776b7a1870e1') in 0.068826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Idle/Idle_11.png
+  artifactKey: Guid(f4d10e51a419c174088b59b310d78797) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Idle/Idle_11.png using Guid(f4d10e51a419c174088b59b310d78797) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8fac23bfcda0f3c07d9370cc74990bc2') in 0.101770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Idle/Idle_19.png
+  artifactKey: Guid(c2ec216a0e2ed8c488e14248da4823eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GAME/DEFENSE_GAME/Arts/Sprites/Hero/03/Idle/Idle_19.png using Guid(c2ec216a0e2ed8c488e14248da4823eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20d49ce5e30fd79e1de60955083c84a4') in 0.062199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
